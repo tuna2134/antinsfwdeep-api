@@ -16,3 +16,4 @@ model.compile(optimizer='adam',
               metrics=['accuracy'])
 
 model.fit(train_images, train_labels, epochs=5)
+model.save("model.h5")
